@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- bootstrap CDN -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+        <!-- style sheets -->
+        <link rel="stylesheet" href="style.css">
+        <title>Home</title>
+    </head>
+
+    <body>
+
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="header-h1">MAKG_Entertainment</h1>
+                    </div>
+                    <div class="col">
+                        <nav class="header-nav-bar">
+                            <a id="header-projects" class="nav-cicle" href="/">Home |</a>
+                            <a id="header-projects" class="nav-cicle" href="projects">Project |</a>
+                            <a id="header-services" class="nav-cicle" href="services">Services |</a>
+                            <a id="header-gallery" class="nav-cicle" href="gallery">Gallery |</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <img class="services-img" src="https://freerangestock.com/sample/1705/sheet-music-background.jpg"
+                alt="music sheet">
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div id="services-col-left" class="col">
+                        <h2 class="services-h2">About MAKG_Entertainment</h2>
+                        <ul class="services-ul">
+                            <li>Entertaining guests at private events</li>
+                            <li>Denver, CO</li>
+                            <li>Slogan: “Music is Therapy”</li>
+                        </ul>
+                        <h2 class="services-h2">My Services</h2>
+                        <ul class="services-ul">
+                            <li>Entertains at weddings</li>
+                            <li>Graduations</li>
+                            <li>Parties</li>
+                            <li>Social/Corporate events</li>
+                            <li>Special Occasions</li>
+                        </ul>
+                    </div>
+                    <div id="services-col-right" class="col">
+                        <img class="gallery-images" src="https://source.unsplash.com/300x300?music"
+                            alt="gallery picture">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="services-contact-form">
+            <div class="container">
+                <div class="row">
+                    <div id="services-form-col" class="col">
+                        <form class="contact-form">
+                            <h1 class="services-form-h1">Contact Us!</h1>
+                            <input class="text-name" type="text" id="name" placeholder="Full Name"> </br>
+                            <input class="email" type="email" id="email" placeholder="Email"> </br>
+                            <input class="subject" type="test" id="subject" placeholder="Subject"> </br>
+                            <textarea class="textbox" id="message" placeholder="Message"></textarea> </br>
+                            <input type="submit" class="submit" value="Send Message">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div id="footer-col-left" class="col">
+                        <h3 class="footer-h3">Phone</h3>
+                        <p>303-999-9999</p>
+                    </div>
+                    <div id="footer-col-mid" class="col">
+                        <h3 class="footer-h3">Email</h3>
+                        <p>michaelmakanjuola69@gmail.com</p>
+                    </div>
+                    <div id="footer-col-right" class="col">
+                        <h3 class="footer-h3">Follow Me</h3>
+                        <a href="https://www.instagram.com/makg_entertainment/" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+
+</html>
